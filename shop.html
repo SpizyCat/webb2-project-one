@@ -8,7 +8,7 @@
   </head>
   <body>
     <nav id="navbar">
-      <a id="logo" href="#"><strong>Simons Website</strong></a>
+      <a id="logo" href="home.html"><img src="./images/logo.png" alt="" /></a>
       <ul>
         <li><a href="home.html">Home</a></li>
         <li><a href="main2.html">Main2</a></li>
@@ -17,28 +17,59 @@
       </ul>
       <br />
     </nav>
-    <p id="text1">Here I will sell cars that I own.</p>
-    <div class="shop">
-      <div>
-        <img
-          src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.fastcar.co.uk%2Fwp-content%2Fuploads%2F2016%2F09%2Fugliest-cars-worst-06.jpg&f=1&nofb=1"/>
-    <button>100$</button>
+    <div id="myModal" class=""Modal"></div>
+    <div class="narrow">
+      <p class="text1">Trending Products</p>
+      <p class="text2">Browse available cars here</p>
+      <div class="shop-gallery">
+        <div class="shop">
+          <img src="./images/car1.jpg" onclick="openModal()"/>
+          <p class="texthover">Lamborghini Urus</p>
+          <p class="text3">210,000$</p>
+        </div>
+        <div class="shop">
+          <img src="./images/car2.png" />
+          <p class="texthover">Mclaren 720S</p>
+          <p class="text3">290,000$</p>
+        </div>
+        <div class="shop">
+          <img src="./images/car3.jpg" />
+          <p class="texthover">Tesla Model X</p>
+          <p class="text3">100,000$</p>
+        </div>
+        <div class="shop">
+          <img src="./images/car4.png" />
+          <p class="texthover">Lamborghini Huracan</p>
+          <p class="text3">300,000$</p>
+          <p></p>
+        </div>
+        <div class="shop">
+          <img src="./images/car5.png" />
+          <p class="texthover">Aston Martin DB11</p>
+          <p class="text3">200,000$</p>
+        </div>
+        <div class="shop">
+          <img src="./images/car6.png" />
+          <p class="texthover">Bugatti Veyron</p>
+          <p class="text3">2,000,000$</p>
+        </div>
+        <div class="shop">
+          <img src="./images/car7.jpg" />
+          <p class="texthover">Ford Mustang Shelby Gt 500</p>
+          <p class="text3">70,000$</p>
+        </div>
+        <div class="shop">
+          <img src="./images/car8.png" />
+          <p class="texthover">Mercedes-Benz E Class 2014</p>
+          <p class="text3">40,000$</p>
+        </div>
       </div>
-      <div>
-        <img
-          src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fqunki.com%2Fwp-content%2Fuploads%2F2016%2F11%2Fugly-cars-05.jpg&f=1&nofb=1"/>
-        <button>100$</button>
-      </div>
-      <div>
-        <img
-          src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fd22y8d4s8puzla.cloudfront.net%2Fwp-content%2Fuploads%2F2019%2F01%2F27123331%2FCorbin-Sparrow.jpg&f=1&nofb=1"/>
-        <button>100$</button>
-      </div>
-      <div>
-        <img
-          src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.3x_52-IzpBm3mvDevs42KwHaEK%26pid%3DApi&f=1"/>
-        <button>100$</button>
-      </div>
+      <p class="text4">
+        If you are interested in buying any of the cars I showcase here please
+        visit the <a href="contact.html">contact</a> page and you can contact me regarding further pictures
+        and a real life showcase.
+      </p>
     </div>
   </body>
+  <script src="javascript.js"></script>
 </html>
