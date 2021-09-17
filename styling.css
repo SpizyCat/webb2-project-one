@@ -1,130 +1,220 @@
 body,
 html {
-  width: 100%;
-  height: 100%;
-  box-sizing: border-box;
-  font-family: sans-serif;
-  padding: 0;
-  margin: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
 #navbar {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  background: white;
-  color: #fff;
-  padding: 1em 6em;
-  box-shadow: rgba(0, 0, 0, 0.116) 0 3px 4px 0;
-  margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: white;
+    color: #fff;
+    padding: 1em 6em;
+    box-shadow: rgba(0, 0, 0, 0.116) 0 3px 4px 0;
+    margin-right: auto;
 }
 
 #navbar > ul {
-  display: flex;
-  padding-left: 0;
-  margin-right: auto;
-  align-items: center;
+    display: flex;
+    padding-left: 0;
+    margin-right: auto;
+    align-items: center;
 }
 
 #logo {
-  height: 80px;
-  width: 80px;
-  position: relative;
-  margin-right: auto;
+    height: 80px;
+    width: 80px;
+    position: relative;
+    margin-right: auto;
 }
 
 #logo img {
-  position: absolute;
-  margin-right: auto;
-  width: 100%;
-  height: 100%;
+    position: absolute;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
 }
 
 #navbar > ul > li {
-  list-style-type: none;
+    list-style-type: none;
 }
 
 #navbar > ul > li > a {
-  text-decoration: none;
-  color: #3c4250;
-  padding-right: 2em;
-  text-transform: uppercase;
-  font-size: 1em;
+    text-decoration: none;
+    color: #3c4250;
+    padding-right: 2em;
+    text-transform: uppercase;
+    font-size: 1em;
 }
 
 #navbar > ul > li > a:hover {
-  color: rgba(0, 0, 255, 0.705);
-  letter-spacing: 1px;
+    color: rgba(0, 0, 255, 0.705);
+    letter-spacing: 1px;
 }
 
 #active {
-  color: blue !important;
-  font-weight: 800;
+    color: blue !important;
+    font-weight: 800;
 }
 
 .shop {
-  text-align: center;
-  height: 80%;
+    text-align: center;
+    height: 80%;
 }
 
 .shop img {
-  width: 100%;
-  height: 100%;
-  box-shadow: rgba(0, 0, 0, 0.411) 0 4px 4px 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.411) 0 4px 4px 0;
 }
 
 .shop p {
-  text-align: center;
+    text-align: center;
 }
 
 .text1 {
-  text-align: left;
-  font-size: 1.5em;
-  padding-left: 10px;
-  font-weight: bolder;
-  margin-bottom: 0;
+    text-align: left;
+    font-size: 1.5em;
+    padding-left: 10px;
+    font-weight: bolder;
+    margin-bottom: 0;
 }
 
 .text2 {
-  padding-left: 10px;
-  margin-top: 10px;
-  font-weight: 50;
-  font-size: 1em;
-  color: grey;
+    padding-left: 10px;
+    margin-top: 10px;
+    font-weight: 50;
+    font-size: 1em;
+    color: grey;
 }
 
 .text3 {
-  font-weight: 700;
+    font-weight: 700;
 }
 
 .text4 {
-  margin-top: 50px;
-  text-align: center;
+    margin-top: 50px;
+    text-align: center;
 }
 
 .text4 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .texthover {
-  padding-left: 10px;
-  font-weight: 50;
-  font-size: 1em;
+    padding-left: 10px;
+    font-weight: 50;
+    font-size: 1em;
 }
 
 .shop:hover .texthover {
-  color: rgba(0, 0, 255, 0.705);
-  cursor: pointer;
+    color: rgba(0, 0, 255, 0.705);
+    cursor: pointer;
 }
 
 .shop-gallery {
-  text-align: center;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 20px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
 }
 
 .narrow {
-  max-width: 80%;
-  margin: auto;
+    max-width: 80%;
+    margin: auto;
+}
+.text5 {
+    color: black;
+}
+
+.text6 {
+    text-align: center;
+}
+
+.text7 {
+  font-size: 2.5em;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.modalcontent {
+    display: none;
+}
+
+#myModal {
+    display: none;
+}
+
+.form {
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(241, 240, 240, 0.589);
+    text-align: center;
+}
+.form h1 {
+    color: black;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="tel"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid rgba(0, 0, 255, 0.705);
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.form input[type="text"]:focus,
+.form input[type="email"]:focus,
+.form input[type="tel"]:focus {
+    width: 280px;
+    border-color: #2ecc71;
+}
+
+.form input[type="text"]:hover,
+.form input[type="email"]:hover,
+.form input[type="tel"]:hover {
+    width: 280px;
+    border-color: #2ecc71;
+}
+
+.form input[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.form input[type="submit"]:hover {
+    background: #2ecc71;
 }

@@ -17,7 +17,38 @@
       </ul>
       <br />
     </nav>
-    <div id="myModal" class=""Modal"></div>
+    <div id="myModal" class=""Modal">
+      <span class="close modal" onclick="closeModal()">&times;</span>
+      <div class="modalcontent">
+        <div class="slide">
+        <img src="./images/car1.jpg" alt="Car" class="slide"/>
+        </div>
+        <div class="slide">
+        <img src="./images/car2.png" alt="Car" class="slide"/>
+        </div>
+        <div class="slide">
+        <img src="./images/car3.jpg" alt="Car" class="slide"/>
+        </div>
+        <div class="slide">
+        <img src="./images/car4.png" alt="Car" class="slide"/>
+        </div>  
+        <div class="slide">
+        <img src="./images/car5.png" alt="Car" class="slide"/>
+        </div>
+        <div class="slide">
+        <img src="./images/car6.png" alt="Car" class="slide"/>
+        </div>
+        <div class="slide">
+        <img src="./images/car7.jpg" alt="Car" class="slide"/>
+        </div>
+        <div class="slide">
+        <img src="./images/car8.png" alt="Car" class="slide"/>
+        </div>
+      </div>
+      <a class="previous" onclick="changeSlide(-1)">&#10094;</a>
+      <a class="next" onclick="changeSlide(1)">&#10095;</a>
+    </div>
+    
     <div class="narrow">
       <p class="text1">Trending Products</p>
       <p class="text2">Browse available cars here</p>
