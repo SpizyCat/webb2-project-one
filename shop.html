@@ -17,44 +17,21 @@
       </ul>
       <br />
     </nav>
-    <div id="myModal" class=""Modal">
-      <span class="close modal" onclick="closeModal()">&times;</span>
-      <div class="modalcontent">
-        <div class="slide">
-        <img src="./images/car1.jpg" alt="Car" class="slide"/>
-        </div>
-        <div class="slide">
-        <img src="./images/car2.png" alt="Car" class="slide"/>
-        </div>
-        <div class="slide">
-        <img src="./images/car3.jpg" alt="Car" class="slide"/>
-        </div>
-        <div class="slide">
-        <img src="./images/car4.png" alt="Car" class="slide"/>
-        </div>  
-        <div class="slide">
-        <img src="./images/car5.png" alt="Car" class="slide"/>
-        </div>
-        <div class="slide">
-        <img src="./images/car6.png" alt="Car" class="slide"/>
-        </div>
-        <div class="slide">
-        <img src="./images/car7.jpg" alt="Car" class="slide"/>
-        </div>
-        <div class="slide">
-        <img src="./images/car8.png" alt="Car" class="slide"/>
-        </div>
-      </div>
+    <div id="myModal" class="modal">
       <a class="previous" onclick="changeSlide(-1)">&#10094;</a>
+      <div class="modalcontent">
+        <img src="./images/car1.jpg" id="modalImage" alt="Car" class="slide" />
+      </div>
       <a class="next" onclick="changeSlide(1)">&#10095;</a>
+      <span class="close modal" onclick="closeModal()">&times;</span>
     </div>
-    
+
     <div class="narrow">
       <p class="text1">Trending Products</p>
       <p class="text2">Browse available cars here</p>
       <div class="shop-gallery">
         <div class="shop">
-          <img src="./images/car1.jpg" onclick="openModal()"/>
+          <img src="./images/car1.jpg" onclick="openModal()" />
           <p class="texthover">Lamborghini Urus</p>
           <p class="text3">210,000$</p>
         </div>
@@ -97,8 +74,8 @@
       </div>
       <p class="text4">
         If you are interested in buying any of the cars I showcase here please
-        visit the <a href="contact.html">contact</a> page and you can contact me regarding further pictures
-        and a real life showcase.
+        visit the <a href="contact.html">contact</a> page and you can contact me
+        regarding further pictures and a real life showcase.
       </p>
     </div>
   </body>
