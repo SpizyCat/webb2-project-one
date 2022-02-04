@@ -13,7 +13,11 @@ html {
     display: none;
     
 }  
-         
+
+#title {
+    display: none;
+}
+
 @media screen and (max-width: 768px) {
     #hamburger-navbar {
         display: flex;
