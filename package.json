@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "firebase": "^9.6.6"
+  },
+  "name": "webb2-project-one",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpizyCat/webb2-project-one.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SpizyCat/webb2-project-one/issues"
+  },
+  "homepage": "https://github.com/SpizyCat/webb2-project-one#readme",
+  "description": ""
+}
