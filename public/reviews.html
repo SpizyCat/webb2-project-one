@@ -4,10 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="stylesheet" href="styling.css" />
     <title>Reviews</title>  
 </head>
 <body>
-    
+    <nav>
+        <div id="navbar">
+          <a id="logo" href="index.html"
+            ><img src="./images/logo.png" alt=""
+          /></a>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a id="active" href="reviews.html">Reviews</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div id="hamburger-navbar">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+        <div id="reviews">
+            <h2>WE APPRECIATE YOUR REVIEW!</h2>
+            <form id="form">
+              <label for="fname">First Name</label>
+              <input class="form-block" type="text" id="fname" name="fname" placeholder="John">
+              <label for="textarea-review">Write your feedback.</label>
+              <textarea class="form-block" id="textarea-review" rows="3"></textarea>
+              <input type="submit" value="Submit">
+            </form>
+            <div id="reviewholder"></div>
+        </div>
 </body>
+<script type="module" src="api.js"></script>
+<script src="javascript.js"></script>
 </html>

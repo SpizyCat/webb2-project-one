@@ -365,3 +365,38 @@ html {
     font-size: 17px;
     color: white
 }
+
+#reviews {
+    max-width: 60%;
+    width: 100%;
+    margin: 15px auto;
+    padding: 15px;
+    border: solid 1px #f1f1f1;
+    background: #fbfbfb;
+    box-shadow: #e6e6e6 0 0 4px ;
+    border-radius: 0.25rem;
+}
+
+#reviews h2 {
+    text-align: center;
+}
+
+#form {
+    margin: 0 20px;
+}
+
+.form-block {
+    display: block;
+    width: 100%;  
+}
+
+.reviewcontainer {
+    text-align: center;
+    border: solid 1px #3c4250;
+    margin: 15px;
+}
+
+.reviewcontainer * {
+    margin: 0;
+    padding: 0px;
+}
